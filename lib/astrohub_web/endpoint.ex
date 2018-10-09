@@ -35,7 +35,7 @@ defmodule AstrohubWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_astrohub_key",
-    signing_salt: "FRwp/XhD"
+    signing_salt: "dyzcXm6h"
 
   plug AstrohubWeb.Router
 

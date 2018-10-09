@@ -9,7 +9,7 @@ use Mix.Config
 # kept out of version control and might be hard to recover
 # or recreate for your teammates (or yourself later on).
 config :astrohub, AstrohubWeb.Endpoint,
-  secret_key_base: "Bt8ReQ9+Ejhjo+eNs+63WHPu3abdM3zTC1EYehNvaec+bTb44F1VOAsnhRqTt4Xs"
+  secret_key_base: "ho3yYarH5/VYnAQ491XHoZIDaIPX0rmJNmhZe3a3mr8OkZ3rgL5lbVPbEVUIswBx"
 
 # Configure your database
 config :astrohub, Astrohub.Repo,

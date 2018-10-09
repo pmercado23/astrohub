@@ -12,7 +12,7 @@ config :astrohub,
 # Configures the endpoint
 config :astrohub, AstrohubWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "gQoJv87QgIM7Fy27nFGB45oN3z/jq3Wpge8RdjbHj4MEJYwyoinKWgkPTj6QoBl9",
+  secret_key_base: "lT/jkWMWFpIG4VDm5zdYT5WDV3OM5WHH7j1Mt3pLvWSyyn3zWtqJQTm7d8Tcc6g+",
   render_errors: [view: AstrohubWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Astrohub.PubSub,
            adapter: Phoenix.PubSub.PG2]
